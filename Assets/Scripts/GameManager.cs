@@ -83,13 +83,14 @@ public class GameManager : MonoBehaviour
             }
         }       
         // Game Lose condition
-        if ((collisionCounter == 15 && Score<WinScore) || Lives == 0)
+        if ((collisionCounter == 20 && Score<WinScore) || Lives == 0)
         {
             //Player loses!
             // Display a lose message!
             Debug.Log("Player Loses!");
             UIManager.Instance.DisplayLoseMessage();
             // Stop!
+            SceneManager.LoadScene(3);
             StopGame();
         }
     }
@@ -109,6 +110,7 @@ public void HandleBombCollision(string colliderObject)
         // Display a lose message!
         Debug.Log("Player Loses!");
         UIManager.Instance.DisplayLoseMessage();
+        SceneManager.LoadScene(3);
         // Stop!
         StopGame();
     }

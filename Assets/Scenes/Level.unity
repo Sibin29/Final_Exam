@@ -6159,6 +6159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150637925}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6218,10 +6222,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6874,6 +6874,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 106409884}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6933,10 +6937,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7481,6 +7481,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 106409884}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7540,10 +7544,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7701,6 +7701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 106409884}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7760,10 +7764,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7997,6 +7997,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150637925}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8056,10 +8060,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8295,8 +8295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  inputAxisHorizontal: Snake_Movement
-  inputAxisVertical: Snake_Movement_Vertical
+  inputAxisHorizontal: Snowman_Movement
+  inputAxisVertical: Snowman_Movement_Vertical
   explosionPrefab: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   explosionInstance: {fileID: 0}
   foodCollectedAudioPrefab: {fileID: 6513347997102634446, guid: 55075a5bbf54244d68a5bf0edc734ad0, type: 3}
@@ -8780,6 +8780,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 106409884}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8840,10 +8844,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Bomb
       objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8860,6 +8860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 150637925}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8919,10 +8923,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9048,6 +9048,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 106409884}
     m_Modifications:
+    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4659455717656308342, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -9107,10 +9111,6 @@ PrefabInstance:
     - target: {fileID: 9021979860543945138, guid: e02b31792a067c74a81e275fcda3930b, type: 3}
       propertyPath: m_TagString
       value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 187060044974384935, guid: 6a301d09debaf1e4a8d3e2657cc44a96, type: 3}
-      propertyPath: m_BodyType
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
