@@ -30,11 +30,11 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelCleared.unity
     guid: 0ee8a4a01f169485da43c06cbf418eef
   - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: 88cb86f780bf50e4eacc5dcdfed38631
-  - enabled: 1
     path: Assets/Scenes/LevelFailed.unity
     guid: 647db4f74b9fda14d87c16fc8fb55322
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 88cb86f780bf50e4eacc5dcdfed38631
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
